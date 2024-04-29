@@ -20,8 +20,6 @@ public class Enemy : Shootable
         stateMachine.Initialize();
     }
 
-    protected override void AbstractKillShootable()
-    {
-        // animation!
-    }
+    protected override void AbstractKillShootable() { }
+
 }

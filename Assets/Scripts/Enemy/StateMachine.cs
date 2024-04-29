@@ -17,7 +17,7 @@ public class StateMachine : MonoBehaviour
             return;
 
         activeState.StateMachine = this;
-        activeState.enemy = GetComponent<Enemy>();
+        activeState.Enemy = GetComponent<Enemy>();
         activeState.Enter();
     }
 }
